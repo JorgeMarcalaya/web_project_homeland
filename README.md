@@ -8,3 +8,5 @@ Git hub es una plataforma de desarrollo colaborativo basada en Git, un sistema d
 Vscode es un editor de código fuente gratuito y de código abierto desarrollado por Microsoft.
 Metodologia BEM divide la interfaz de usuario en bloques independientes para crear componentes escalables y reutilizables.
 Tinypng es un servicio en línea que se utiliza para comprimir imágenes, reduciendo su tamaño de archivo sin comprometer significativamente la calidad visual.
+
+https://jorgemarcalaya.github.io/web_project_homeland/
