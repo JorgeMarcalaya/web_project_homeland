@@ -1,0 +1,261 @@
+.content__places {
+  width: 984px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 80px;
+  margin: 0 146px 92px 148px;
+}
+.content__place {
+  width: 984px;
+  display: grid;
+  grid-template-columns: 460px 484px;
+  grid-template-areas:
+    "title artist"
+    "imagen paragraph"
+    "button paragraph";
+  grid-column-gap: 40px;
+  grid-row-gap: 48px;
+}
+.content__place:nth-child(5) {
+  position: relative;
+  margin: 0;
+  z-index: 0;
+}
+.content__title {
+  grid-area: title;
+  width: 460px;
+  font-family: "Titulos";
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  color: #fff;
+  margin: 0;
+}
+.content__title_ancho_gales {
+  width: 484px;
+}
+.content__title_ancho_eeuu {
+  width: 584px;
+}
+.content__website {
+  grid-area: artist;
+  width: 456px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  row-gap: 8px;
+}
+.content__website_position {
+  margin: 0 0 31px;
+}
+.content__url-heading {
+  width: 58px;
+  font-family: "Subtitulos";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #aaa;
+  margin: 0;
+}
+.content__url-heading_ancho {
+  width: 67px;
+  font-family: "Subtitulos";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #aaa;
+  margin: 0;
+}
+.content__artist {
+  width: 456px;
+  font-family: "Subtitulos";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+  margin: 0;
+}
+.content__image {
+  grid-area: imagen;
+  width: 460px;
+  height: 460px;
+  margin: 0;
+  object-fit: cover;
+}
+.content__frame6 {
+  grid-area: button;
+  width: 355px;
+  height: 48px;
+  padding: 13px 20px;
+  background-color: #0278fe;
+  border-style: none;
+  border-radius: 4px;
+  font-family: "Boton";
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  color: #fff;
+  margin: 0;
+  text-align: center;
+  transition: 0.5s ease;
+}
+.content__frame6:hover {
+  background-color: #0063d2;
+}
+.content__paragraphs {
+  grid-area: paragraph;
+  width: 484px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+}
+.content__paragraph {
+  width: 484px;
+  font-family: "Subtitulos";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.63;
+  color: #fff;
+  margin: 0;
+}
+@media screen and (max-width: 1280px) and (min-width: 768px) {
+  .content__places {
+    width: 720px;
+    row-gap: 80px;
+    margin: 0 24px 92px;
+  }
+  .content__place {
+    width: 720px;
+    display: grid;
+    grid-template-columns: 340px 352px;
+    grid-template-areas:
+      "title artist"
+      "imagen paragraph"
+      "button paragraph";
+    grid-column-gap: 28px;
+    grid-row-gap: 48px;
+  }
+  .content__place:nth-child(5) {
+    position: relative;
+    margin: 0;
+    z-index: 0;
+  }
+  .content__title {
+    grid-area: title;
+    width: 340px;
+    font-weight: 900;
+    font-size: 42px;
+    line-height: 110%;
+  }
+  .content__title_ancho_gales {
+    margin-top: 21px;
+    margin-bottom: 22px;
+  }
+  .content__website {
+    grid-area: artist;
+    width: 295px;
+  }
+  .content__website_position {
+    margin: auto 0 47px 0;
+  }
+  .content__url-heading {
+    width: 58px;
+  }
+  .content__url-heading_ancho {
+    width: 67px;
+  }
+  .content__artist {
+    width: 352px;
+  }
+  .content__image {
+    grid-area: imagen;
+    width: 340px;
+    height: 340px;
+  }
+  .content__frame6 {
+    grid-area: button;
+    width: 355px;
+    height: 48px;
+  }
+  .content__paragraphs {
+    width: 352px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 11px;
+  }
+  .content__paragraph {
+    width: 352px;
+    font-size: 16px;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 320px) {
+  .content__places {
+    width: 320px;
+    margin: 0 0 64px;
+  }
+  .content__place {
+    width: 320px;
+    display: grid;
+    grid-template-columns: 320px;
+    grid-template-areas:
+      "title"
+      "artist"
+      "imagen"
+      "paragraph"
+      "button";
+    grid-row-gap: 0;
+  }
+  .content__title {
+    grid-area: title;
+    width: 288px;
+    margin: 0 16px 30px;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 109%;
+  }
+  .content__website {
+    grid-area: artist;
+    width: 288px;
+    margin: 0 16px 30px;
+  }
+  .content__url-heading {
+    width: 288px;
+  }
+  .content__url-heading_ancho {
+    width: 288px;
+  }
+  .content__artist {
+    width: 288px;
+  }
+  .content__image {
+    grid-area: imagen;
+    width: 320px;
+    height: 320px;
+    margin: 0 0 30px;
+  }
+  .content__frame6 {
+    grid-area: button;
+    width: 288px;
+    height: 48px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 17px;
+    margin: 0 auto 0;
+  }
+  .content__paragraphs {
+    grid-area: paragraph;
+    width: 288px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 25px;
+    margin: 0 16px 30px;
+  }
+  .content__paragraph {
+    width: 288px;
+    font-size: 16px;
+  }
+}

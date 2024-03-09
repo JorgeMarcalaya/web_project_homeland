@@ -1,0 +1,25 @@
+.footer {
+  font-family: "Subtitulos";
+  width: 191px;
+  height: 16px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1em;
+  color: #fff;
+  text-align: center;
+  margin: 0 558px 24px 531px;
+}
+@media screen and (max-width: 1280px) and (min-width: 768px) {
+  .footer {
+    width: 191px;
+    height: 16px;
+    margin: 0 302px 24px 275px;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 320px) {
+  .footer {
+    width: 191px;
+    height: 14px;
+    margin: 0 61px 24px 68px;
+  }
+}

@@ -1,0 +1,124 @@
+.cover {
+  width: 1184px;
+  margin: 0 48px 92px;
+  box-sizing: border-box;
+  position: relative;
+}
+.cover__imagen {
+  width: 100%;
+  height: 740px;
+  object-fit: cover;
+  filter: opacity(30%);
+  transition: 0.5s ease;
+}
+.cover:hover .cover__imagen {
+  filter: opacity(80%);
+}
+.cover__content {
+  width: 656px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  row-gap: 32px;
+  position: absolute;
+  z-index: 1;
+}
+.cover__content-title {
+  width: 656px;
+  font-family: "Titulos";
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 76px;
+  text-align: center;
+  color: #fffdfd;
+  margin: 0;
+}
+.cover__content-subtitle {
+  font-family: "Subtitulos";
+  width: 280px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 122%;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+}
+.cover__frame6 {
+  padding: 13px 20px;
+  width: 198px;
+  height: 48px;
+  background: #0278fe;
+  border-radius: 4px;
+  border-style: none;
+  font-family: "Boton";
+  color: #fff;
+  transition: 0.5s ease;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+}
+.cover__frame6:hover {
+  background-color: #0063d2;
+}
+@media screen and (max-width: 1280px) and (min-width: 768px) {
+  .cover {
+    width: 768px;
+    height: 746px;
+    margin: 0 0 88px;
+    position: relative;
+  }
+  .cover__imagen {
+    width: 100%;
+    height: 100%;
+  }
+  .cover__content {
+    width: 656px;
+    margin: auto;
+  }
+  .cover__content-title {
+    width: 656px;
+  }
+  .cover__content-subtitle {
+    width: 280px;
+  }
+  .cover__frame6 {
+    width: 198px;
+    height: 48px;
+  }
+}
+@media screen and (max-width: 768px) and (min-width: 320px) {
+  .cover {
+    width: 320px;
+    height: 254px;
+    margin: 0 0 64px;
+    position: relative;
+  }
+  .cover__imagen {
+    width: 100%;
+    height: 100%;
+  }
+  .cover__content {
+    width: 288px;
+    height: 163px;
+    row-gap: 16px;
+  }
+  .cover__content-title {
+    width: 100%;
+    font-weight: 900;
+    font-size: 32px;
+    line-height: 109%;
+  }
+  .cover__content-subtitle {
+    width: 280px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 114%;
+  }
+  .cover__frame6 {
+    width: 198px;
+    height: 48px;
+  }
+}
