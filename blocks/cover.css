@@ -54,11 +54,15 @@
   border-radius: 4px;
   border-style: none;
   font-family: "Boton";
-  color: #fff;
   transition: 0.5s ease;
   font-weight: 600;
   font-size: 18px;
   line-height: 22px;
+}
+.button-text {
+  font-style: normal;
+  text-decoration: none;
+  color: #fff;
 }
 .cover__frame6:hover {
   background-color: #0063d2;

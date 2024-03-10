@@ -103,6 +103,11 @@
   text-align: center;
   transition: 0.5s ease;
 }
+.button-text {
+  font-style: normal;
+  text-decoration: none;
+  color: #fff;
+}
 .content__frame6:hover {
   background-color: #0063d2;
 }

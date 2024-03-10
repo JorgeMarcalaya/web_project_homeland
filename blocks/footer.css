@@ -4,7 +4,7 @@
   height: 16px;
   font-weight: 400;
   font-size: 14px;
-  line-height: 1em;
+  line-height: 114%;
   color: #fff;
   text-align: center;
   margin: 0 558px 24px 531px;
@@ -21,5 +21,6 @@
     width: 191px;
     height: 14px;
     margin: 0 61px 24px 68px;
+    line-height: 100%;
   }
 }
