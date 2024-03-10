@@ -47,7 +47,9 @@
   margin: 0;
 }
 .cover__frame6 {
-  padding: 13px 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   width: 198px;
   height: 48px;
   background: #0278fe;
@@ -58,11 +60,9 @@
   font-weight: 600;
   font-size: 18px;
   line-height: 22px;
-}
-.button-text {
-  font-style: normal;
-  text-decoration: none;
   color: #fff;
+  text-decoration: none;
+  text-align: center;
 }
 .cover__frame6:hover {
   background-color: #0063d2;
